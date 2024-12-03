@@ -13,6 +13,7 @@ with open("README.md") as f:
 setup(
     name="dpr",
     version="1.0.0",
+    packages=find_packages(exclude=["conf"]),
     description="Facebook AI Research Open Domain Q&A Toolkit",
     url="https://github.com/facebookresearch/DPR/",
     classifiers=[
